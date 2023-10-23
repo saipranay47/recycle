@@ -15,10 +15,6 @@ function InfiniteHorizontal() {
       >
         <li>RECYCLE®</li>
         <li>RECYCLE®</li>
-        <li>RECYCLE®</li>
-        <li>RECYCLE®</li>
-        <li>RECYCLE®</li>
-        <li>RECYCLE®</li>
       </ul>
     </div>
   );

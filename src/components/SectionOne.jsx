@@ -2,13 +2,12 @@ import React from "react";
 
 function SectionOne() {
   return (
-    <div className="max-w-[1324px] border-b-2">
+    <div className="max-w-[1324px] ">
       <div className="border-b-2">
         <div class=" lg:p-0 p-5 grid grid-cols-12 gap-5 my-20">
           <div class="col-span-4">
             <h3 className=" text-5xl">Positive Impact of ReCycle E-Bikes</h3>
           </div>
-          {/* <div class="col-span-2"></div> */}
           <div class="col-span-2"></div>
           <div class="col-span-6">
             <p className="text-lg max-w-[600px]">
@@ -27,7 +26,7 @@ function SectionOne() {
             Reduction in commuter transportation carbon emissions.
           </p>
         </div>
-        <div className="border-r-2 h-[500px]"></div>
+        <div className="border-r-2 h-[500px] -mt-20"></div>
         <div className="flex flex-col justify-start w-min">
           <span className="lg:text-[240px] text-8xl">30%</span>
           <p className="text-3xl leading-10 ">
