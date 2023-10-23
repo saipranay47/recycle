@@ -1,5 +1,6 @@
 import Header from "./components/Header";
 import Hero from "./components/Hero";
+import InfiniteHorizontal from "./components/InfiniteHorizontal";
 import SectionOne from "./components/SectionOne";
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
         <Hero />
       </div>
       <SectionOne />
+      <InfiniteHorizontal />
     </div>
   );
 }
