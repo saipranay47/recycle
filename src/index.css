@@ -1,0 +1,45 @@
+@font-face {
+  font-family: 'PP Neue Montreal Book';
+  font-style: normal;
+  font-weight: normal;
+  src: local('PP Neue Montreal Book'), url('./assets/fonts/ppneuemontreal-book.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'PP Neue Montreal Italic';
+  font-style: normal;
+  font-weight: normal;
+  src: local('PP Neue Montreal Italic'), url('./assets/fonts/ppneuemontreal-italic.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'PP Neue Montreal Thin';
+  font-style: normal;
+  font-weight: normal;
+  src: local('PP Neue Montreal Thin'), url('./assets/fonts/ppneuemontreal-thin.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'PP Neue Montreal Medium';
+  font-style: normal;
+  font-weight: normal;
+  src: local('PP Neue Montreal Medium'), url('./assets/fonts/ppneuemontreal-medium.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'PP Neue Montreal SemiBold italic';
+  font-style: normal;
+  font-weight: normal;
+  src: local('PP Neue Montreal SemiBold italic'), url('./assets/fonts/ppneuemontreal-semibolditalic.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'PP Neue Montreal Bold';
+  font-style: normal;
+  font-weight: normal;
+  src: local('PP Neue Montreal Bold'), url('./assets/fonts/ppneuemontreal-bold.woff') format('woff');
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
