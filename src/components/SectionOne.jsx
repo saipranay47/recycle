@@ -2,14 +2,14 @@ import React from "react";
 
 function SectionOne() {
   return (
-    <div className="max-w-[1324px] ">
+    <div className="max-w-[1324px]">
       <div className="border-b-2">
-        <div class=" lg:p-0 p-5 grid grid-cols-12 gap-5 my-20">
-          <div class="col-span-4">
+        <div className=" lg:p-0 p-5 grid grid-cols-12 gap-5 my-20">
+          <div className="col-span-4">
             <h3 className=" text-5xl">Positive Impact of ReCycle E-Bikes</h3>
           </div>
-          <div class="col-span-2"></div>
-          <div class="col-span-6">
+          <div className="col-span-2"></div>
+          <div className="col-span-6">
             <p className="text-lg max-w-[600px]">
               Not only are ReCycle e-bikes good for the environment, they are
               also beneficial for your health and well-being. Electric-assisted

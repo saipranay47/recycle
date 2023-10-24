@@ -5,6 +5,8 @@ import SectionOne from "./components/SectionOne";
 
 import Wheel from "./assets/E-bike-wheel.png";
 import SectionTwo from "./components/SectionTwo";
+import Gallery from "./components/Gallary";
+import VideoSection from "./components/VideoSection";
 
 function App() {
   return (
@@ -14,12 +16,13 @@ function App() {
         <Hero />
       </div>
       <SectionOne />
-      <InfiniteHorizontal />
+      <InfiniteHorizontal text={"RECYCLE®"} />
 
-      <img src={Wheel} alt="" className="w-full"/>
+      <img src={Wheel} alt="" className="w-full" />
 
       <SectionTwo />
-
+      <Gallery />
+      <VideoSection />
     </div>
   );
 }

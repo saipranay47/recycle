@@ -13,7 +13,7 @@ function Hero() {
           Order now
         </button>
       </div>
-      <div class="absolute -bottom-5 left-1/2 -translate-x-1/2">
+      <div className="absolute -bottom-5 left-1/2 -translate-x-1/2">
         <h1 className=" uppercase 2xl:text-[284px] xl:text-[264px] text-[19vw]">
           C<span className=" font-montreal-italic">o</span>mmute
         </h1>
