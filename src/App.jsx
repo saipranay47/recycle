@@ -8,6 +8,7 @@ import SectionTwo from "./components/SectionTwo";
 import Gallery from "./components/Gallary";
 import VideoSection from "./components/VideoSection";
 import Testimonials from "./components/Testimonials";
+import JoinSection from "./components/JoinSection";
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
       <Gallery />
       <VideoSection />
       <Testimonials />
+      <JoinSection />
     </div>
   );
 }
