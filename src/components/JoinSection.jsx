@@ -5,7 +5,7 @@ import joinImg from "../assets/bikeJoin.png";
 function JoinSection() {
   return (
     <div className="relative w-full ">
-      <img src={battryImg} alt="" className="w-full" />
+      <img src={joinImg} alt="" className="w-full" />
 
       <h1 className="absolute top-0 left-10 uppercase 2xl:text-[246px] xl:text-[224px] text-[19vw] text-white max-w-[1440px] px-14">
         J<span className=" font-montreal-italic">o</span>in
