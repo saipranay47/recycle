@@ -27,7 +27,7 @@ function Gallery() {
   return (
     <div
       className={classNames(
-        "w-full flex justify-center items-center overflow-hidden flex-col min-h-[800px]"
+        "w-full flex justify-between items-center overflow-hidden flex-col min-h-screen"
       )}
       style={{ backgroundColor: bgColor }}
     >
@@ -45,10 +45,10 @@ function Gallery() {
         <img
           src={currentImage}
           alt="E-bike"
-          className=" relative -bottom-[310px] z-10 "
+          className=" relative -bottom-[450px] z-10 "
         />
       </div>
-      <div className="bg-white px-3 py-3 rounded-full flex gap-3 relative z-20 bottom-[0px]">
+      <div className="bg-white px-3 py-3 rounded-full flex gap-3 relative z-20 bottom-[50px]">
         <button
           onClick={() => changeImage(BlackImg, "#222222")}
           className="p-4 bg-black rounded-full"
