@@ -7,6 +7,7 @@ import Wheel from "./assets/E-bike-wheel.png";
 import SectionTwo from "./components/SectionTwo";
 import Gallery from "./components/Gallary";
 import VideoSection from "./components/VideoSection";
+import Testimonials from "./components/Testimonials";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
       <SectionTwo />
       <Gallery />
       <VideoSection />
+      <Testimonials />
     </div>
   );
 }
