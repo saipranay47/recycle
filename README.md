@@ -1,8 +1,5 @@
-# React + Vite
+# Relume Design League 2 - Winning Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This repository contains the winning website of the "Relume Design League 2" competition. The website was designed by Joseph and built using React and Tailwind CSS.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+[RDL2 Final Figma Design File](https://www.figma.com/community/file/1216113412996841002)

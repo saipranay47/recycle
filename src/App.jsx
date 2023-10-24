@@ -10,6 +10,7 @@ import VideoSection from "./components/VideoSection";
 import Testimonials from "./components/Testimonials";
 import JoinSection from "./components/JoinSection";
 import Footer from "./components/Footer";
+import EndCredit from "./components/EndCredit";
 
 function App() {
   return (
@@ -29,6 +30,8 @@ function App() {
       <Testimonials />
       <JoinSection />
       <Footer />
+
+      <EndCredit />
     </div>
   );
 }
