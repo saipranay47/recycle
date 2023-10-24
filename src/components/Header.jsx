@@ -1,56 +1,11 @@
 /* This example requires Tailwind CSS v2.0+ */
 import { Fragment } from "react";
 import { Popover, Transition } from "@headlessui/react";
-import {
-  BookmarkAltIcon,
-  BriefcaseIcon,
-  ChartBarIcon,
-  CheckCircleIcon,
-  CursorClickIcon,
-  DesktopComputerIcon,
-  GlobeAltIcon,
-  InformationCircleIcon,
-  MenuIcon,
-  NewspaperIcon,
-  OfficeBuildingIcon,
-  PhoneIcon,
-  PlayIcon,
-  ShieldCheckIcon,
-  UserGroupIcon,
-  ViewGridIcon,
-  XIcon,
-} from "@heroicons/react/outline";
+import { MenuIcon, XIcon } from "@heroicons/react/outline";
 import { ChevronDownIcon } from "@heroicons/react/solid";
 
 import Logo from "./Logo";
 
-const solutions = [
-  {
-    name: "Analytics",
-    description:
-      "Get a better understanding of where your traffic is coming from.",
-    href: "#",
-    icon: ChartBarIcon,
-  },
-  {
-    name: "Engagement",
-    description: "Speak directly to your customers in a more meaningful way.",
-    href: "#",
-    icon: CursorClickIcon,
-  },
-  {
-    name: "Security",
-    description: "Your customers' data will be safe and secure.",
-    href: "#",
-    icon: ShieldCheckIcon,
-  },
-  {
-    name: "Integrations",
-    description: "Connect with third-party tools that you're already using.",
-    href: "#",
-    icon: ViewGridIcon,
-  },
-];
 function classNames(...classes) {
   return classes.filter(Boolean).join(" ");
 }
@@ -161,22 +116,7 @@ export default function Header() {
               </div>
               <div className="mt-6 sm:mt-8">
                 <nav>
-                  <div className="grid gap-7 sm:grid-cols-2 sm:gap-y-8 sm:gap-x-4">
-                    {solutions.map((item) => (
-                      <a
-                        key={item.name}
-                        href={item.href}
-                        className="-m-3 flex items-center p-3 rounded-lg hover:bg-gray-50"
-                      >
-                        <div className="flex-shrink-0 flex items-center justify-center h-10 w-10 rounded-md bg-indigo-500 text-white sm:h-12 sm:w-12">
-                          <item.icon className="h-6 w-6" aria-hidden="true" />
-                        </div>
-                        <div className="ml-4 text-base font-medium text-gray-900">
-                          {item.name}
-                        </div>
-                      </a>
-                    ))}
-                  </div>
+                  <div className="grid gap-7 sm:grid-cols-2 sm:gap-y-8 sm:gap-x-4"></div>
                 </nav>
               </div>
             </div>
