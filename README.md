@@ -6,6 +6,12 @@ This repository contains the code for my implementation of [Joseph's](https://tw
 
 https://rdl2final.vercel.app/
 
+## Screenshots (few sections of the live demo):
+![recycle landing page](image.png)
+![background color changing carousel](image-1.png)
+![Alt text](image-2.png)
+![footer](image-3.png)
+
 ## Figma Design File:
 
 Figma Design File: https://www.figma.com/community/file/1216113412996841002
@@ -30,7 +36,7 @@ npm install
 npm start
 ```
 
-4. Open http://localhost:3000 in your browser to view the website.
+4. Open http://localhost:5173 in your browser to view the website.
 
 ## Contributing:
 
